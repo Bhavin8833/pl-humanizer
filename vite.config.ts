@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => ({
     }
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
-  base: "/Pl-humanizer/",
+  base: "/pl-humanizer/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
